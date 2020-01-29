@@ -12,36 +12,35 @@ public class assignLane : MonoBehaviour
 
     private void OnTriggerEnter(Collider cube)
     {
-        if(this.gameObject.tag == "lane0")
-        {
-            print("this cube is in lane 0");
-            //cube.gameObject.GetComponent<AudioSource>().clip = A;
-        }
-        else if (this.gameObject.tag == "lane1")
-        {
-            print("this cube is in lane 1");
-            //cube.gameObject.GetComponent<AudioSource>().clip = B;
-        }
-        else if (this.gameObject.tag == "lane2")
-        {
-            print("this cube is in lane 2");
-            //cube.gameObject.GetComponent<AudioSource>().clip = C;
-        }
-        else if (this.gameObject.tag == "lane3")
-        {
-            print("this cube is in lane 3");
-            //cube.gameObject.GetComponent<AudioSource>().clip = D;
-        }
-        else if (this.gameObject.tag == "lane4")
-        {
-            print("this cube is in lane 4");
-            //cube.gameObject.GetComponent<AudioSource>().clip = E;
-        }
-        else
-        {
-            print("I detect nothing");
-        }
+        //if (this.gameObject.tag == "lane0")
+        //{
+        //    print("this cube is in lane 0");
+        //    //cube.gameobject.getcomponent<audiosource>().clip = a;
+        //}
+        //else if (this.gameObject.tag == "lane1")
+        //{
+        //    print("this cube is in lane 1");
+        //    //cube.gameobject.getcomponent<audiosource>().clip = b;
+        //}
+        //else if (this.gameObject.tag == "lane2")
+        //{
+        //    print("this cube is in lane 2");
+        //    //cube.gameobject.getcomponent<audiosource>().clip = c;
+        //}
+        //else if (this.gameObject.tag == "lane3")
+        //{
+        //    print("this cube is in lane 3");
+        //    //cube.gameobject.getcomponent<audiosource>().clip = d;
+        //}
+        //else if (this.gameObject.tag == "lane4")
+        //{
+        //    print("this cube is in lane 4");
+        //    //cube.gameobject.getcomponent<audiosource>().clip = e;
+        //}
+        //else
+        //{
+        //    print("i detect nothing");
+        //}
     }
-    // Update is called once per frame
 
 }

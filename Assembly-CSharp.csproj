@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\assignLane.cs" />
+    <Compile Include="Assets\Scripts\enableCubes.cs" />
     <Compile Include="Assets\Scripts\fallAndDestroy.cs" />
     <Compile Include="Assets\Scripts\fullSongPlayback.cs" />
     <Compile Include="Assets\Scripts\playNote.cs" />
