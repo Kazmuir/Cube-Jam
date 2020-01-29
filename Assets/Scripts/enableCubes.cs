@@ -9,7 +9,7 @@ public class enableCubes : MonoBehaviour
 
     public GameObject cubePrefab;
    
-    Vector3[] cubePosition = new[] { new Vector3(-12.99587f, Y, Z), new Vector3(-6.615867f, Y, Z), new Vector3(0.03413343f, Y, Z), new Vector3(6.554133f, Y, Z), new Vector3(13.03413f, Y, Z) };
+    Vector3[] cubePosition = { new Vector3(-12.99587f, Y, Z), new Vector3(-6.615867f, Y, Z), new Vector3(0.03413343f, Y, Z), new Vector3(6.554133f, Y, Z), new Vector3(13.03413f, Y, Z) };
     System.Random cubePicker = new System.Random();
 
     int numPicked;
