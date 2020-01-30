@@ -11,8 +11,4 @@ public class fallAndDestroy : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    void Update()
-    {
-
-    }
 }
